@@ -1,0 +1,39 @@
+.main-container {
+    width: 100%;
+
+    .header-container {
+        width: 100%;
+        background-color: #1e8fe1;
+
+        .menu-bar {
+            display: flex;
+            width: 800px;
+            margin: 0 auto;
+            justify-content: space-between;
+            padding: 18px 0;
+            box-sizing: border-box;
+
+            nav {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    margin-right: 20px;
+                }
+                a.active {
+                    background-color: #000;
+                    padding: 20px;
+                }
+            }
+
+            select {
+                width: 80px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+}

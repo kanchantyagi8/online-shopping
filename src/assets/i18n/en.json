@@ -1,0 +1,19 @@
+{
+   "welcomeNote": "Welcome to our online shopping portal",
+   "categories": "Categories",
+   "checkout": "Checkout",
+   "congratulationNote": {
+      "congras": "Congratulations, you bought",
+      "itemsAndPaid": "items and paid"
+   },
+   "addToCart": "Add to cart",
+   "allItems": "All Items",
+   "productName": "Product name",
+   "quantity": "Quantity",
+   "actions": "Actions",
+   "price": "Price",
+   "total": "Total",
+   "add": "Add",
+   "remove": "Remove",
+   "loading": "Loading"
+}

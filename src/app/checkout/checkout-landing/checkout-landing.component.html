@@ -1,0 +1,32 @@
+<h2>{{'checkout' | translate}}</h2>
+<p>{{'allItems' | translate}}</p>
+
+<div>
+
+    <table>
+        <tr>
+            <th>{{'productName' | translate}}</th>
+            <th>{{'quantity' | translate}}</th>
+            <th>{{'actions' | translate}}</th>
+            <th>{{'price' | translate}}</th>
+        </tr>
+        <tr *ngFor="let item of totalItems">
+            <td>{{item.title}}</td>
+            <td>{{item.quantity}}</td>
+            <td>
+                <button (click)="addItem(item)">{{'add' | translate}}</button>
+                <button (click)="removeItem(item, 'remove')">{{'remove' | translate}}</button>
+            </td>
+            <td>{{item.price | currency}}</td>
+        </tr>
+        <tr>
+            <td colspan="3">{{'total' | translate}}:</td>
+            <td>{{totalPrice | currency}}</td>
+        </tr>
+    </table>
+
+    <div class="checkout-button" *ngIf="totalPrice > 0">
+        <button (click)="checkout()">{{'checkout' | translate}}</button>
+    </div>
+</div>
+

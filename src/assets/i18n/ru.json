@@ -1,0 +1,19 @@
+{
+   "welcomeNote": "Добро пожаловать в наш интернет-магазин",
+   "categories": "Категории",
+   "checkout": "Проверять",
+   "congratulationNote": {
+      "congras": "Поздравляю, вы купили",
+      "itemsAndPaid": "предметы и оплачены"
+   },
+   "addToCart": "Добавить в корзину",
+   "allItems": "Все элементы",
+   "productName": "Наименование товара",
+   "quantity": "Количество",
+   "actions": "Действия",
+   "price": "Цена",
+   "total": "Общее",
+   "add": "Добавить",
+   "remove": "удалять",
+   "loading": "Загрузка"
+}

@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    th {
+        background-color: #eeeeee;
+    }
+    tr:last-child {
+        background-color: #eeeeee;
+    }
+    tr > td:nth-child(1) {
+        width: 60%;
+    }
+    tr > td:nth-child(2) {
+        text-align: center;
+        width: 10%;
+    }
+    tr > td:nth-child(3) {
+        width: 20%;
+
+        button {
+            margin-right: 10px;
+        }
+        button:last-child {
+            margin-right: 10px;
+        }
+    }
+    tr > td:nth-child(4) {
+        text-align: right;
+        width: 10%;
+    }
+    td {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.checkout-button {
+    text-align: center;
+    margin-top: 20px;
+}

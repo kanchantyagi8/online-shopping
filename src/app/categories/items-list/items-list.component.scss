@@ -1,0 +1,16 @@
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    width: 220px;
+    height: 295px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    padding: 10px;
+}

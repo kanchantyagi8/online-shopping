@@ -1,0 +1,11 @@
+<h2>{{'categories' | translate}}</h2>
+
+<div class="spinner" *ngIf="showSpinner">{{'loading' | translate}}...</div>
+<div *ngIf="!showSpinner">
+    <ul>
+        <li *ngFor="let item of itemList">
+            <app-item [itemDetail]="item"></app-item>
+            <button (click)="addToCart(item)">{{'addToCart' | translate}}</button>
+        </li>
+    </ul>
+</div>

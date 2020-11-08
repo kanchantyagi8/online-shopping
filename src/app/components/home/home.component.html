@@ -1,0 +1,6 @@
+<h1 class="welcome-text">{{'welcomeNote' | translate }}</h1>
+
+<div class="checkout-confirmation" *ngIf="checkoutDone">
+    <h2>{{'congratulationNote.congras' | translate}} {{itemsCheckout}} 
+        {{'congratulationNote.itemsAndPaid' | translate}} {{totalPrice | currency}}</h2>
+</div>
