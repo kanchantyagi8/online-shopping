@@ -42,3 +42,17 @@ table, th, td {
     text-align: center;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 420px) {
+    table {
+        th {
+            font-size: 14px;
+            word-break: break-word;
+        }
+        tr > td:nth-child(3) {
+            button {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
